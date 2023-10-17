@@ -1,0 +1,3 @@
+Error 78 = Json File missing
+Error 81 = Error line 317
+Error 41 = json file is corrupted

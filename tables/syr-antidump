@@ -1,0 +1,9 @@
+AntiDump = {}
+AntiDump.ListScript = {
+    {name = 'ExemplePrint', variable = ExempleScript},
+}
+ExempleScript = [[
+    Citizen.CreateThread(function()
+ print('I'm a message that can't be dump')
+end)
+]]
