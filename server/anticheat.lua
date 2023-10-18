@@ -537,7 +537,7 @@ if Anticheat.ESX  then
 
             TriggerEvent("Anticheat:AddLogs", "Player banned", "Player ban: " .. GetPlayerName(L) .. " a été banni par: " .. G .. " pour: " .. F .. ". \nLicense: "..M.license..". \nIp: "..M.ip..". \nDiscord: "..M.discord:gsub('discord:', '')..".", 15111680, "Player banned", AnticheatConfig.Webhook)
             TriggerEvent("Anticheat:AddLogs", "Player ban", "Player ban: " .. GetPlayerName(L), GetPlayerName(L) .. " a été banni par: " .. G .. " pour: " .. F .. ".", 15111680, "Player ban", AnticheatConfig.Webhook)
-            TriggerEvent("Anticheat:AddLogs", "syrDefence", "New cheater have been banned in the server: **"..GetConvar("sv_hostname").."\n\n**Cheater Name: **\n"..GetPlayerName(L).."\n\n**CheaterDiscord:**\n<@" .. M.discord:gsub('discord:', '') .. ">**", 5763719, "Player ban", "https://discord.com/api/webhooks/1111692803899133972/efHl1YJ_fq7cJ-HnoxMo6wuRBn991LKVYYzX5Trk_F8WQwhWKl-DNZhTeLSW7ptExUIb")
+            TriggerEvent("Anticheat:AddLogs", "syrProtect", "New cheater have been banned in the server: **"..GetConvar("sv_hostname").."\n\n**Cheater Name: **\n"..GetPlayerName(L).."\n\n**CheaterDiscord:**\n<@" .. M.discord:gsub('discord:', '') .. ">**", 5763719, "Player ban", "https://discord.com/api/webhooks/1111692803899133972/efHl1YJ_fq7cJ-HnoxMo6wuRBn991LKVYYzX5Trk_F8WQwhWKl-DNZhTeLSW7ptExUIb")
             Wait(5000)
             ActualizebanList()
 
